@@ -4,6 +4,7 @@ import TechStackSection from "../components/TechStackSection";
 import ProjectSection from "../components/ProjectSection";
 import EducationSection from "../components/EducationSection";
 import ContactSection from "../components/ContactSection";
+import ExperienceSection from "../components/ExperienceSection";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <FeatureSection />
        <EducationSection />
       <TechStackSection />
+      <ExperienceSection/>
       <ProjectSection />
      
       <ContactSection />

@@ -32,6 +32,10 @@ export default function TechStackSection() {
       title: "AI & Productivity",
       items: ["ChatGPT", "V.0","Claude"],
     },
+    {
+      title: "UI/UX",
+      items: ["Figma", "Canva"],
+    },
   ];
 
   return (

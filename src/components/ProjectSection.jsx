@@ -1,4 +1,3 @@
-import React from "react";
 
 const projects = [
   {
@@ -21,8 +20,8 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Modern portfolio with animations, 3D avatar, and interactive UI.",
-    live: "https://your-portfolio.vercel.app",
-    github: "https://github.com/yourname/portfolio",
+    live: "https://portfolio-web-phi-beige.vercel.app/",
+    github: "https://github.com/tweetyet/portfolio-web",
     tech: ["React", "Framer Motion", "Tailwind"],
   },
   {
@@ -53,16 +52,20 @@ const ProjectSection = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group bg-white border rounded-2xl p-5 shadow-sm hover:shadow-xl transition hover:-translate-y-1"
+            className="group relative bg-white border rounded-2xl p-5 shadow-sm hover:shadow-xl transition duration-300 hover:-translate-y-1"
           >
-            {/* Preview (Cute + Compact) */}
+            {/* Hover glow */}
+            <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition bg-gradient-to-r from-pink-50 via-white to-purple-50 blur-xl -z-10"></div>
+
+            {/* Preview (CLICK SAFE) */}
             <a
               href={project.live}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="block"
+              onClick={(e) => e.stopPropagation()}
             >
-              <div className="h-28 rounded-xl mb-4 border bg-gradient-to-br from-pink-50 via-white to-purple-50 flex items-center justify-center hover:scale-[1.02] transition duration-300">
+              <div className="h-28 rounded-xl mb-4 border bg-gradient-to-br from-pink-50 via-white to-purple-50 flex items-center justify-center hover:scale-[1.02] transition duration-300 cursor-pointer">
                 <div className="text-center">
                   <div className="text-xl">🚀</div>
                   <p className="text-xs text-gray-500 mt-1">
@@ -94,12 +97,13 @@ const ProjectSection = () => {
               ))}
             </div>
 
-            {/* Buttons */}
+            {/* Buttons (CLICK SAFE) */}
             <div className="flex gap-2 mt-4">
               <a
                 href={project.live}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
                 className="flex-1 text-center bg-black text-white py-1.5 rounded-lg text-xs hover:bg-gray-800 transition"
               >
                 Live
@@ -108,7 +112,8 @@ const ProjectSection = () => {
               <a
                 href={project.github}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
                 className="flex-1 text-center border border-gray-300 py-1.5 rounded-lg text-xs hover:bg-gray-100 transition"
               >
                 Code

@@ -20,8 +20,8 @@ export default function Footer() {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-6">
           <a
-            href="https://github.com/yourusername"
-            target="_blank"
+            href="https://github.com/tweetyet"
+            
             rel="noreferrer"
             className="text-gray-600 hover:text-black transition"
           >
@@ -29,8 +29,8 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourprofile"
-            target="_blank"
+            href="https://www.linkedin.com/in/tweetyet-frontend/"
+           
             rel="noreferrer"
             className="text-gray-600 hover:text-black transition"
           >
@@ -38,7 +38,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:your@email.com"
+            href="mailto:ytheint80@gmail.com"
             className="text-gray-600 hover:text-black transition"
           >
             <Mail size={20} />
