@@ -33,38 +33,43 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="py-24 relative z-10">
       <div className="max-w-3xl mx-auto px-6">
 
-        <div className="bg-white p-10 rounded-xl shadow-sm">
-          <h2 className="text-3xl mb-6">Send me an email</h2>
+        <div className="bg-white p-10 rounded-xl shadow-md">
+          
+          {/* Heading */}
+          <h2 className="text-xl mb-8 font-semibold text-center">
+            Feel free to reach out if you’d like to collaborate or discuss opportunities 👇
+          </h2>
 
-          <form ref={form} onSubmit={sendEmail} className="space-y-4">
+          {/* Form */}
+          <form ref={form} onSubmit={sendEmail} className="space-y-5">
 
             {/* Name */}
             <input
               type="text"
-              name="name"   // ✅ YOUR VERSION
-              placeholder="Name"
-              className="w-full border p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-black"
+              name="name"
+              placeholder="Your Name"
+              className="w-full border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
               required
             />
 
             {/* Email */}
             <input
               type="email"
-              name="email"  // ✅ YOUR VERSION
-              placeholder="Email"
-              className="w-full border p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-black"
+              name="email"
+              placeholder="Your Email"
+              className="w-full border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
               required
             />
 
             {/* Message */}
             <textarea
               name="message"
-              placeholder="Message"
-              rows="5"
-              className="w-full border p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-black"
+              placeholder="Your Message..."
+              rows="6"
+              className="w-full border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-black resize-none relative z-10"
               required
             />
 
@@ -72,15 +77,15 @@ export default function ContactSection() {
             <button
               type="submit"
               disabled={loading}
-              className="bg-black text-white px-6 py-3 rounded-md w-full hover:opacity-80 transition"
+              className="bg-black text-white px-6 py-3 rounded-full  hover:opacity-80 transition"
             >
-              {loading ? "Sending..." : "Send email"}
+              {loading ? "Sending..." : "Send Message"}
             </button>
 
             {/* Success Message */}
             {success && (
               <p className="text-green-600 text-center mt-2">
-                Message sent successfully!
+                ✅ Message sent successfully!
               </p>
             )}
 
