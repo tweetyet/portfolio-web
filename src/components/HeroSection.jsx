@@ -128,7 +128,7 @@ export default function HeroSection() {
     //         href="https://github.com/tweetyet"
     //         target="_blank"
     //         rel="noopener noreferrer"
-    //         className="p-3 rounded-full bg-white shadow-md hover:shadow-xl 
+    //         className="p-3 rounded-full bg-white shadow-md hover:shadow-xl
     //               transition transform hover:-translate-y-1 hover:scale-110"
     //       >
     //         <FaGithub className="w-5 h-5 text-black" />
@@ -139,7 +139,7 @@ export default function HeroSection() {
     //         href="https://www.instagram.com/tweety_et?igsh=amZpOHN1d3ljdTlp&utm_source=qr"
     //         target="_blank"
     //         rel="noopener noreferrer"
-    //         className="p-3 rounded-full bg-white shadow-md hover:shadow-xl 
+    //         className="p-3 rounded-full bg-white shadow-md hover:shadow-xl
     //               transition transform hover:-translate-y-1 hover:scale-110"
     //       >
     //         <FaInstagram className="w-5 h-5 text-pink-500" />
@@ -150,7 +150,7 @@ export default function HeroSection() {
     //         href="https://www.linkedin.com/in/tweetyet-frontend/"
     //         target="_blank"
     //         rel="noopener noreferrer"
-    //         className="p-3 rounded-full bg-white shadow-md hover:shadow-xl 
+    //         className="p-3 rounded-full bg-white shadow-md hover:shadow-xl
     //               transition transform hover:-translate-y-1 hover:scale-110"
     //       >
     //         <LiaLinkedin className="w-5 h-5 text-blue-600" />
@@ -159,7 +159,7 @@ export default function HeroSection() {
     //   </div>
     // </section>
 
-     <section
+    <section
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 md:pt-0"
     >
@@ -171,40 +171,37 @@ export default function HeroSection() {
 
       {/* Main content */}
       <div className="relative z-10 max-w-4xl w-full px-6 text-center">
-
         {/* Glass card */}
         <div className="backdrop-blur-mdshadow-xl rounded-3xl p-8 md:p-12">
-
           {/* Name */}
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-3xl md:text-6xl font-bold text-gray-900 leading-tight">
             Hello, I&apos;m <br />
-            <span className="text-black">
-              Yamin Theint Theint Wai
-            </span>
+            <span className="animated-gradient-text">Tweety-ET</span>
           </h1>
 
           {/* Role */}
-          <h2 className="mt-4 text-xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-black to-gray-300">
-            Frontend Developer
+          <h2 className="mt-4 text-xl md:text-3xl font-extrabold">
+            <span className="animated-gradient-text">Frontend Developer</span>
           </h2>
 
           {/* Description */}
           <p className="mt-6 text-gray-700 text-base md:text-lg max-w-xl mx-auto">
-            I build modern, responsive, and interactive web experiences using React,JavaScript, Tailwind, and animation-driven UI.
+            I build modern, responsive, and interactive web experiences using
+            React,JavaScript, Tailwind, and animation-driven UI.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <a
               href="#projects"
-              className="px-6 py-3 bg-black text-white rounded-full hover:scale-105 transition"
+              className="px-5 py-2 bg-black text-white rounded-full hover:scale-105 transition"
             >
               View Work
             </a>
 
             <a
               href="#contact"
-              className="px-6 py-3 border border-black rounded-full hover:bg-black hover:text-white transition"
+              className="px-5 py-2 border border-black rounded-full hover:bg-black hover:text-white transition"
             >
               Contact Me
             </a>
@@ -212,7 +209,7 @@ export default function HeroSection() {
             <a
               href="/cv.pdf"
               download
-              className="px-6 py-3 border border-black rounded-full hover:bg-black hover:text-white transition"
+              className="px-5 py-2 border border-black rounded-full hover:bg-black hover:text-white transition"
             >
               Download CV
             </a>
@@ -220,7 +217,6 @@ export default function HeroSection() {
 
           {/* Social icons */}
           <div className="flex justify-center gap-5 mt-8">
-
             <a
               href="https://github.com/tweetyet"
               target="_blank"
@@ -244,9 +240,7 @@ export default function HeroSection() {
             >
               <LiaLinkedin className="w-5 h-5 text-blue-600" />
             </a>
-
           </div>
-
         </div>
       </div>
     </section>
