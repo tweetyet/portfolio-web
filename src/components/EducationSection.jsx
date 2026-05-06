@@ -3,7 +3,7 @@ export default function EducationSection() {
     {
       title: "Bachelor in Computer Science",
       school: "University of the People",
-      year: "2026 - 2028",
+      year: "in progress",
     },
     {
       title: "Artificial Intelligence and Data Science",

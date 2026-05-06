@@ -1,42 +1,50 @@
 export default function TechStackSection() {
   const techCategories = [
-    {
-      title: "Languages",
-      items: ["JavaScript", "HTML5", "CSS3"],
-    },
-    {
-      title: "Frameworks",
-      items: ["React","Next.js"],
-    },
-    {
-      title: "State Management",
-      items: ["Zustand","Context API"],
-    },
-    {
-      title: "Styling",
-      items: ["Tailwind CSS"],
-    },
-    {
-      title: "Backend & APIs",
-      items: ["REST APIs", "JSON"],
-    },
-    {
-      title: "DevOps & Tools",
-      items: ["Git", "GitHub", "Vercel","VS Code","Postman"],
-    },
-    {
-      title: "Testing",
-      items: ["Manual Testing"],
-    },
-    {
-      title: "AI & Productivity",
-      items: ["ChatGPT", "V.0","Claude"],
-    },
-    {
-      title: "UI/UX",
-      items: ["Figma", "Canva"],
-    },
-  ];
+  {
+    title: "Languages",
+    items: ["JavaScript (ES6+)", "HTML5", "CSS3"],
+  },
+  {
+    title: "Frameworks",
+    items: ["React.js", "Next.js (basic)"],
+  },
+  {
+    title: "State Management",
+    items: ["Zustand", "Context API"],
+  },
+  {
+    title: "Styling",
+    items: ["Tailwind CSS", "Responsive Design"],
+  },
+  {
+    title: "Backend & APIs",
+    items: ["REST APIs", "JSON", "Node.js (basic)"],
+  },
+  {
+    title: "Database",
+    items: ["Supabase (PostgreSQL)", "SQL (basic)", "NoSQL (basic)"],
+  },
+  {
+    title: "☁️ Cloud & Deployment",   // ⭐ ADD THIS SECTION
+    items: ["AWS (EC2, S3 basics)", "Vercel", "Netlify", "CI/CD (basic)"],
+  },
+  {
+    title: "DevOps & Tools",
+    items: ["Git", "GitHub", "VS Code", "Postman", "Chrome DevTools"],
+  },
+  {
+    title: "Testing",
+    items: ["Manual Testing", "Debugging"],
+  },
+  {
+    title: "AI & Productivity",
+    items: ["ChatGPT", "Claude"],
+  },
+  {
+    title: "UI/UX",
+    items: ["Figma", "Canva"],
+  },
+];
 
   return (
     <section id="tech" className="py-24">
