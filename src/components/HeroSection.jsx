@@ -207,7 +207,7 @@ export default function HeroSection() {
             </a>
 
             <a
-              href="/cv.pdf"
+              href="/TweetyET.pdf"
               download
               className="px-5 py-2 border border-black rounded-full hover:bg-black hover:text-white transition"
             >
