@@ -1,6 +1,4 @@
-import {   Mail } from "lucide-react";
-import { DiGithub } from "react-icons/di";
-import { LiaLinkedin } from "react-icons/lia";
+
 
 export default function Footer() {
   return (
