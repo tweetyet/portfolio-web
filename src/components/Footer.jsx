@@ -16,34 +16,7 @@ export default function Footer() {
         <p className="text-gray-600 text-sm mb-6">
           Frontend Developer building clean and modern web applications.
         </p>
-
-        {/* Social Links */}
-        <div className="flex justify-center gap-6 mb-6">
-          <a
-            href="https://github.com/tweetyet"
-            
-            rel="noreferrer"
-            className="text-gray-600 hover:text-black transition"
-          >
-            <DiGithub size={20} />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/tweetyet-frontend/"
-           
-            rel="noreferrer"
-            className="text-gray-600 hover:text-black transition"
-          >
-            <LiaLinkedin size={20} />
-          </a>
-
-          <a
-            href="mailto:ytheint80@gmail.com"
-            className="text-gray-600 hover:text-black transition"
-          >
-            <Mail size={20} />
-          </a>
-        </div>
+       
 
         {/* Bottom text */}
         <p className="text-xs text-gray-500">
