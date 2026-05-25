@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import publicRoutes from "./publicRoutes";
 import PublicLayout from "../components/PublicLayout";
+import ErrorPage from "../components/ErrorPage";
 
 const router = createBrowserRouter([{
     path: '/',
-    errorElement: <h1>404</h1>,
+    errorElement: <ErrorPage/>,
     element: <PublicLayout/>,
     children: [...publicRoutes]
 }])
