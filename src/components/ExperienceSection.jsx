@@ -120,7 +120,7 @@ const experiences = [
   {
     role: "Junior Frontend Developer",
     company: "E-Konsulta Medical Clinic",
-    period: "Mar 2025 – Feb 2026",
+    period: "May 2026 - present",
     description:
       "Developed responsive healthcare web applications with modern UI, API integration, and performance optimization using React and Next.js.",
     tech: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "REST API"],
