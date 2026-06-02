@@ -6,7 +6,15 @@ const projects = [
       "Smart expense tracker with analytics dashboard, categories, and clean UI.",
     live: "https://expense-tracker-qe5k.vercel.app",
     github: "https://github.com/tweetyet/expense_tracker",
-    tech: ["React", "Tailwind", "Node.js"],
+    tech: ["React","Javascript" , "Tailwind", "Node.js"],
+  },
+  {
+    title: "BentoBox Japanese Restaurant",
+    description:
+      "Modern japanese restaurant website with online ordering and reservation system.",
+    live: "https://bento-box-nu.vercel.app/",
+    github: "https://github.com/tweetyet/bentoBox",
+    tech: ["React","Javascript" ,"Tailwind"],
   },
   {
     title: "MiniMart E-Commerce",
@@ -31,7 +39,9 @@ const projects = [
     live: "https://pos-system-17pw.vercel.app",
     github: "https://github.com/tweetyet/pos-system",
     tech: ["React", "TypeScript", "Supabase"],
-  },
+  }
+  
+
 ];
 
 const ProjectSection = () => {
