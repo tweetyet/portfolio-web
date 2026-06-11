@@ -1,14 +1,6 @@
 
 const projects = [
   {
-    title: "Trackify Expense Tracker",
-    description:
-      "Smart expense tracker with analytics dashboard, categories, and clean UI.",
-    live: "https://expense-tracker-qe5k.vercel.app",
-    github: "https://github.com/tweetyet/expense_tracker",
-    tech: ["React","Javascript" , "Tailwind", "Node.js"],
-  },
-  {
     title: "BentoBox Japanese Restaurant",
     description:
       "Modern japanese restaurant website with online ordering and reservation system.",
@@ -25,14 +17,6 @@ const projects = [
     tech: ["React", "Redux", "Firebase"],
   },
   {
-    title: "Portfolio Website",
-    description:
-      "Modern portfolio with animations, 3D avatar, and interactive UI.",
-    live: "https://portfolio-web-phi-beige.vercel.app/",
-    github: "https://github.com/tweetyet/portfolio-web",
-    tech: ["React", "Framer Motion", "Tailwind"],
-  },
-  {
     title: "EV Car POS System",
     description:
       "POS system for EV car dealership with inventory, sales, and customer management.",
@@ -40,6 +24,25 @@ const projects = [
     github: "https://github.com/tweetyet/pos-system",
     tech: ["React", "TypeScript", "Supabase"],
   }
+  ,
+  {
+    title: "Trackify Expense Tracker",
+    description:
+      "Smart expense tracker with analytics dashboard, categories, and clean UI.",
+    live: "https://expense-tracker-qe5k.vercel.app",
+    github: "https://github.com/tweetyet/expense_tracker",
+    tech: ["React","Javascript" , "Tailwind", "Node.js"],
+  },
+  
+  
+  {
+    title: "Portfolio Website",
+    description:
+      "Modern portfolio with animations, 3D avatar, and interactive UI.",
+    live: "https://portfolio-web-phi-beige.vercel.app/",
+    github: "https://github.com/tweetyet/portfolio-web",
+    tech: ["React", "Framer Motion", "Tailwind"],
+  },
   
 
 ];
